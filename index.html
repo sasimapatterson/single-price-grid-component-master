@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css.normalize.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   
@@ -16,11 +16,11 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-
 </head>
+
 <body>
-  <div class="container">
-    <header class="join">
+  <main id="container">
+    <div class="join">
       <h1>Join our community</h1>
 
       <h3>30-day, hassle-free money back guarantee</h3>
@@ -29,34 +29,37 @@
         Gain access to our full library of tutorials along with expert code reviews. Perfect for
         any developers who are serious about honing their skills.
       </p>
-    </header> <!-- End Join -->
-
-    <section class="subscription">
-      <h2>Monthly Subscription</h2><br>
+    </div> <!-- End Join -->
+   
+    <section>
+      <div id="content"> 
+        <div class ="subscription">
+          <h2>Monthly Subscription</h2><br>
         
-        <p id="permonth"><span>&dollar;29</span>&nbsp;&nbsp; per month</p>
+          <p id="permonth"><span>&dollar;29</span>&nbsp;&nbsp; per month</p>
 
-        <p>Full access for less than &dollar;1 a day</p><br>
+          <p>Full access for less than &dollar;1 a day</p><br>
       
-      <div class="button">
-        <button type="submit" class="signupbtn">Sign Up</button> 
-      </div>
-    </section> <!-- End Subscription -->
-    
-    <section class="why-us">
-      <h1>Why Us</h1>
+            <div class="button">
+              <button type="submit" class="signupbtn">Sign Up</button> 
+            </div>
+        </div> <!--- End Subscription -->    
 
-      <p>
-        Tutorials by industry experts<br>
-        Peer &amp; expert code review<br>
-        Coding exercises<br>
-        Access to our GitHub repos<br>
-        Community forum<br>
-        Flashcard decks<br>
-        New videos every week
-      </p>
-    </section>
-  </div> <!-- End Container -->
+        <div class="why-us">
+          <h1>Why Us</h1>
+          <p>
+            Tutorials by industry experts<br>
+            Peer &amp; expert code review<br>
+            Coding exercises<br>
+            Access to our GitHub repos<br>
+            Community forum<br>
+            Flashcard decks<br>
+            New videos every week
+          </p>
+        </div>
+      </div> <!-- End Content --> 
+    </section>    
+  </main> <!-- End Container -->
 
   <footer>
     <div class="footer">
