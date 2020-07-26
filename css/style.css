@@ -44,6 +44,7 @@ html {
 
 .join p {
     line-height: 1.857em;
+    
 }
 
 #content {
@@ -129,27 +130,32 @@ html {
 
 /*---------------- Media Queries Start ------------------- */
 
+@media all and (min-width: 768px) {
+
+    .join {
+        margin-left: 50px;
+    }
+}
+
+
+
 @media all and (min-width: 1200px) {
     
     html {
         font-size: 1.875em;
     }
 
-    
+   
     .join {
-        line-height: 1.5em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 80%;
-       
-        margin-top: 5em;
-        padding-bottom: 7px;
-        padding-left: 30px;
-        padding-right: 0;  
-        background-color: white;
-        border-radius: 5px 5px 0 0;
+        width: 80%; 
+        display: block;
+        margin: 0 auto;
         box-sizing: border-box;
+        border-radius: 5px 5px 0 0 
+    }
+
+    .join h3 {
+        line-height: 1em;
     }
 
     #content {
@@ -186,11 +192,22 @@ html {
     }        
 }
 
-@media all and (min-width: 768px) {
-
-    .join {
-        margin-left: 50px;
-    }
-}
 
 
+
+
+
+
+line-height: 1.5em;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 59%;
+margin-top: 5em;
+margin-left: 50px;
+padding-bottom: 7px;
+padding-left: 30px;
+padding-right: 0;  
+background-color: white;
+border-radius: 5px 5px 0 0;
+box-sizing: border-box;
