@@ -4,40 +4,37 @@
 
 }
 
-
 body {
-   background-color: pink;
-   
+   width: 100%;
+   background-color: lightgray;
 }
 
 html {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     color: #abafb8;
-    height: auto;
-    
+    height: auto;   
 }
-
-    
-
 
 .join {
     line-height: 1.5em;
     display: flex;
     align-content: center;
     flex-direction: column;
-    width: 93%;
+    width: 81%;
     margin: 0 auto;
+    margin-left: 25px;
     margin-top: 5em;
     padding-bottom: 7px;
     padding-left: 30px;
     padding-right: 15px;  
     background-color: white;
     border-radius: 5px 5px 0 0;
-    box-sizing: border-box;
+    box-sizing:
 }
 
 .join h1 {
+    font-size: 1.625em;
     color:hsl(179, 62%, 43%);
 }
 
@@ -51,12 +48,8 @@ html {
 
 #content {
     display: flex;
-    justify-content: center;
-    
-    flex-flow: column;
-    
-    
-    
+    justify-content: center; 
+    flex-flow: column;    
 }
 
 .subscription {
@@ -69,8 +62,7 @@ html {
     color: #fff;
     padding-top: 10px;
     padding-bottom: 25px;
-    line-height: 1em;
-    
+    line-height: 1em;    
 }
 
 .subscription span {
@@ -81,8 +73,7 @@ html {
 
 #permonth {
     color: #66cccc;
-    font-size: 1.2em;
-    
+    font-size: 1.2em;    
 }
 
 .button {
@@ -106,7 +97,6 @@ html {
     margin-top: 6.5px;
     transition-duration: 0.4s; 
     cursor: pointer;
-
 }
 
 .signupbtn:hover {
@@ -140,9 +130,9 @@ html {
 /*---------------- Media Queries Start ------------------- */
 
 @media all and (min-width: 1200px) {
+    
     html {
-        font-size: 30px;
-        color: red;
+        font-size: 1.875em;
     }
 
     .join {
@@ -164,14 +154,12 @@ html {
     #content {
         display: flex;
         justify-content: center;
-        margin-left: 5.770em;
+        margin-left: 5.96875em;
         flex-flow: row;
         width: 80%;
-        background-color: blue;
     }
 
     .subscription {
-        width: 
         height: auto;
         padding-left: 30px;
         padding-right: 15px;
@@ -181,7 +169,7 @@ html {
         padding-top: 10px;
         padding-bottom: 25px;
         line-height: 1em;
-        
+        border-radius: 0 0 0 5px;    
     }
 
     .why-us {
@@ -194,31 +182,21 @@ html {
         line-height: 1.5em;
         border-radius: 0 0 5px 0;
         color: #e6ffff;
-        margin-bottom: 10px;
+    }        
+}
+
+@media all and (min-width: 768px) {
+
+    .join {
+        margin-left: 
     }
 
-    .subscription,
-    .why-us {
-       color: red;
-      
-        
-    }
-    
-        
+
+
+
+
+
+
 }
 
 
-.container {
-    display: flex;
-    justify-content: center;
-   
-    flex-direction: column;
-    margin-top: 7%;
-    width: 90%;
- 
-   body  display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    width: 500px;
