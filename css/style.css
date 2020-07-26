@@ -23,7 +23,7 @@ html {
     flex-direction: column;
     width: 81%;
     margin: 0 auto;
-    margin-left: 25px;
+    margin-left: 13px;
     margin-top: 5em;
     padding-bottom: 7px;
     padding-left: 30px;
@@ -135,13 +135,14 @@ html {
         font-size: 1.875em;
     }
 
+    
     .join {
         line-height: 1.5em;
         display: flex;
-        align-content: center;
+        justify-content: center;
         flex-direction: column;
         width: 80%;
-        margin: 0 auto;
+       
         margin-top: 5em;
         padding-bottom: 7px;
         padding-left: 30px;
@@ -188,15 +189,8 @@ html {
 @media all and (min-width: 768px) {
 
     .join {
-        margin-left: 
+        margin-left: 50px;
     }
-
-
-
-
-
-
-
 }
 
 
